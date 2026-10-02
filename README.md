@@ -11,11 +11,11 @@
 
 </div>
 
-A minimal alternative to [pystardust/ytfzf](https://github.com/pystardust/ytfzf) — under 20 lines of shell.
+A minimal alternative to [pystardust/ytfzf](https://github.com/pystardust/ytfzf) — under 10 lines of shell.
 
 ## 特徴
 
-- **20 行足らずの POSIX sh** — 依存が薄く、全部読んで即理解できる
+- **10 行足らずの POSIX sh** — 依存が薄く、全部読んで即理解できる
 - **fzf でサムネイルをプレビューしながら選択**(chafa によるターミナル内画像表示)
 - **mpv で即再生** — 選択 → 再生 → 選択…のループで連続視聴に最適
 - タイトルは日本語優先で取得(`yt-dlp` の `lang=ja`)
