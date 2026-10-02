@@ -42,25 +42,25 @@ A minimal alternative to [pystardust/ytfzf](https://github.com/pystardust/ytfzf)
 
 mpv 0.35 未満では `~/.config/mpv/script-opts/ytdl_hook-ytdl_path` に次の 1 行を追加:
 
-~~~text
+'''text
 ytdl_path=yt-dlp
-~~~
+'''
 
 </details>
 
 ## インストール
 
-~~~sh
+'''sh
 git clone https://github.com/iorin006/ytfzf
 cd ytfzf
 install -m 755 ytfzf.sh ~/.local/bin/ytfzf   # PATH の通った場所へ
-~~~
+'''
 
 ## 使い方
 
-~~~sh
+'''sh
 ytfzf "検索キーワード"
-~~~
+'''
 
 | キー | 動作 |
 |---|---|
